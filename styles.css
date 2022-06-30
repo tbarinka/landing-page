@@ -18,3 +18,20 @@ body {
     display: flex;
     flex-direction: column;
 }
+#top-mid {
+    display: flex;
+    flex-direction: column;
+}
+#top-mid-box-row {
+    display: flex;
+    gap: 16px;
+}
+.gallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.gallery-photo {
+    border: 5px solid blue
+}
