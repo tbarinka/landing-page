@@ -1,12 +1,20 @@
-.body {
+body {
     display: flex;
     flex-direction: column;
 }
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .header-link {
     display: flex;
     gap: 32px;
+}
+#top {
+    display: flex;
+    gap: 40px;
+}
+#left-hand-top {
+    display: flex;
+    flex-direction: column;
 }
