@@ -1,15 +1,28 @@
 body {
     display: flex;
     flex-direction: column;
+    flex: 1;
+    font-family: sans-serif;
 }
 button {
-    height: 30px;
-    width: 70px;
+    height: 35px;
+    width: 80px;
+    background-color: #3882F6;
+    color: white;
+    border: 3px solid white;
+    border-radius: 5px;
+    border-color: #3882F6;
+}
+#but {
+    border-color: white;
 }
 
 .header {
     display: flex;
     justify-content: space-around;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    align-items: center;
 }
 .header-link {
     display: flex;
@@ -28,15 +41,28 @@ button {
 #top {
     display: flex;
     gap: 40px;
+    padding: 16px;
+    background-color: #1F2937;
+    color: white;
+    justify-content:center;
+    align-items: center;
+}
+#gar {
+   font-size: 36px;
+   color: #1F2937;
+   font-weight:800;
 }
 #left-hand-top {
     display: flex;
     flex-direction: column;
 }
-#top-mid {
+.mid {
     display: flex;
     flex-direction: column;
+    justify-content:center;
+    align-items: center;
 }
+
 #top-mid-box-row {
     display: flex;
     gap: 16px;
@@ -48,16 +74,28 @@ button {
     align-items: center;
 }
 .gallery-photo {
-    border: 5px solid blue
+    border: 5px solid #3882F6;
+    border-radius: 5px;
+}
+.mid-b {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 50px
 }
 #mid-bottom {
     display: flex;
     flex-direction: column;
-    width: 600px;
+    justify-content: center;
     align-items: center;
-    justify-content: space-around;
-    background-color: rgb(215, 212, 212);
+    padding: 3px 56px;
+    width: 600px;
+    background-color: #E5E7EB;
+    color: #1F2937;
 }
+
 #bottom {
     display: flex;
     align-items: center;
@@ -70,8 +108,10 @@ button {
     gap: 50px;
     justify-content: space-around;
     align-items: center;
-    background-color: blue;
+    background-color: #3882F6;
     color: white;
-    padding: 0px 60px;
-    margin: 16px;
+    padding: 0px 108px;
+    margin: 56px;
+    border: 5px solid #3882F6;
+    border-radius: 5px;
 }
