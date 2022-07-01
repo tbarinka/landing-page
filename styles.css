@@ -2,6 +2,11 @@ body {
     display: flex;
     flex-direction: column;
 }
+button {
+    height: 30px;
+    width: 70px;
+}
+
 .header {
     display: flex;
     justify-content: space-around;
@@ -10,6 +15,10 @@ body {
     display: flex;
     gap: 32px;
 }
+.footer {
+    
+}
+
 #top {
     display: flex;
     gap: 40px;
@@ -40,5 +49,23 @@ body {
     flex-direction: column;
     width: 600px;
     align-items: center;
+    justify-content: space-around;
     background-color: rgb(215, 212, 212);
+}
+#bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 100px;
+    
+}
+#container {
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: blue;
+    color: white;
+    padding: 0px 60px;
+    margin: 16px;
 }
