@@ -16,7 +16,13 @@ button {
     gap: 32px;
 }
 .footer {
-    
+    color: white;
+    background-color: rgb(7, 7, 58);
+    display: flex;
+    padding: 1px;
+    justify-content:center;
+    align-items: center;
+
 }
 
 #top {
