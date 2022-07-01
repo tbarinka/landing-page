@@ -35,3 +35,10 @@ body {
 .gallery-photo {
     border: 5px solid blue
 }
+#mid-bottom {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    align-items: center;
+    background-color: rgb(215, 212, 212);
+}
